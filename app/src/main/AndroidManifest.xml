@@ -21,6 +21,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Task2Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Task3Activity"
+            android:exported="true"
+            android:label="MenuTest"
+            android:theme="@style/Theme.Experiment3" /> <!-- 不加 NoActionBar 后缀的默认主题 -->
+        <activity
+            android:name=".Task4Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Task5Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
